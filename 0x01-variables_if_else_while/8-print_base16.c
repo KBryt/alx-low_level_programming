@@ -19,7 +19,7 @@ int main(void)
 	}
 	while (letter <= 'f')
 	{
-		putchar(num);
+		putchar(letter);
 		letter++;
 	}
 
