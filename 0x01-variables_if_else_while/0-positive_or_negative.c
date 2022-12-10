@@ -7,6 +7,7 @@
  * Return: Always 0 (Success)
  *
  */
+
 int main(void)
 {
 	int n;
@@ -14,7 +15,6 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* My code is here*/
-	
 	if (n > 0)
 	{
 		printf("%d is positive\n", n);
@@ -28,7 +28,6 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	return (0);
-
 
 }
 		
