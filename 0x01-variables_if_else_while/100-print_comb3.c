@@ -8,8 +8,8 @@
 
 int main(void)
 {
-	int a, e;
-	
+	int a;
+	int e;	
 	a = 48;
 	e = 48;
 
@@ -22,7 +22,7 @@ int main(void)
 			{
 				putchar(e);
 				putchar(a);
-				if (a == 57 && e ==56)
+				if (a == 57 && e == 56)
 				{
 					break;
 				}
