@@ -2,9 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *  more headers goes there 
+ * main - main function to generate a random number
  *
- *  betty style doc from function main goes there
+ * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
@@ -15,9 +16,9 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	printf("Last digit of %d is ", n);
-        num = n % 10;
+	num = n % 10;
 	if (num > 5)
-	{
+	{	
 		printf("%d and is greater than 5\n", num);
 	}
 	else if ((num < 6) && (num < 0))
@@ -29,6 +30,4 @@ int main(void)
 		printf("%d and is 0\n", num);
 	}
 	return (0);
-
-
 }	
