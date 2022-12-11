@@ -4,7 +4,7 @@
 
 /**
  * main - main function to generate random number
- *
+ * Description
  * Return: Always 0 (Success)
  *
  */
@@ -28,4 +28,4 @@ int main(void)
 		printf("%i is negative\n", n);
 	}
 	return (0);
-}	
+}
