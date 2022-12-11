@@ -21,7 +21,7 @@ int main(void)
 			k = 48;
 			while (k < 58)
 			{
-				if (e != a && e != k && a != k && e < a && a < k )
+				if (e != a && e != k && a != k && e < a && a < k)
 				{
 					putchar(e);
 					putchar(a);
@@ -41,6 +41,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
-
-		
+}		

@@ -9,8 +9,8 @@
 
 int main(void)
 {
-	int num = '0'; 
-	char letter = 'a';
+	int num = '0'; /*Initialize num to 0*/
+	char letter = 'a'; /*Initiate latter to a*/
 
 	while (num <= '9')
 	{
