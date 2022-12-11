@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - main function to generatea random number
+ * main - main function to generate random number
  *
  * Return: Always 0 (Success)
  *
@@ -24,10 +24,9 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n < 0)
+	else
 	{
 		printf("%d is negative\n", n);
 	}
-
 	return (0);
 }	
