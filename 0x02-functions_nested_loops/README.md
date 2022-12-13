@@ -1,0 +1,1 @@
+A nested function is a function that is completely contained within a parent function. Any function in a program file can include a nested function. The primary difference between nested functions and other types of functions is that they can access and modify variables that are defined in their parent functions.
