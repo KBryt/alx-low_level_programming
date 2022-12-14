@@ -39,15 +39,15 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initial0s = numLength(mx) - 1 - numLength(f1);
+		initial0s = numLength(mx) - 1 - numlength(f1);
 		while (f1o > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
-			ititial0s--;
+			initial0s--;
 		}
 		printf("%lu", f1);
 
-		tmp = (f1 +f2) % mx;
+		tmp = (f1 + f2) % mx;
 		tmpo = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
 		f1o = f2o;
@@ -55,9 +55,9 @@ int main(void)
 		f2o = tmpo;
 
 		if (i != 98)
-			printf(",");
+			printf(", ");
 		else
-			print("\n");
+			printf("\n");
 		i++;
 	}
 	return (0);
