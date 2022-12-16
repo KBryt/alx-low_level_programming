@@ -9,6 +9,7 @@
 void print_number(int n)
 {
 	unsigned int i, j, count;
+	i = 0;
 
 	if (n < 0)
 	{
