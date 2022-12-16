@@ -2,7 +2,10 @@
 /**
  * print_number - prints an integer
  * @n: param
+ * Return: void
+ * Description: print integer
  */
+
 void print_number(int n)
 {
 	unsigned int i, j, count;
@@ -10,7 +13,7 @@ void print_number(int n)
 	if (n < 0)
 	{
 		_putchar(45);
-		i = n * -1;
+		i = n;
 	}
 	else
 	{
