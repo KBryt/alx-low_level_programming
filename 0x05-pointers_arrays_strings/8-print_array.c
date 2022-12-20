@@ -4,9 +4,8 @@
  * print_array - Function prints element of array of integers
  * @a: pointer parameter
  * @n: integer variable
- * Return: Void
  */
-void print_array(in *a, int n)
+void print_array(int *a, int n)
 {
 	int i = 0;
 

@@ -1,4 +1,4 @@
-#include <stdion.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _strcpy - function copies string pointed to src and dest
