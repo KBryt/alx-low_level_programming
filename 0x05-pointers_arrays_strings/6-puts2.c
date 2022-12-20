@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * puts2 - function thatprints every other character of a string starting with the first character
+ * puts2 - function that prints a string, followed by a new line.
  * @str: a pointer
- * Return: 0
+ * Return: Always 0 (Success)
  */
 void puts2(char *str)
 {
