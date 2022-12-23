@@ -16,7 +16,7 @@ void print_buffer(char *b, int size)
 		for (index = 0; index < 10; index++)
 		{
 			if ((index + byte) >= size)
-				printf(" ");
+				printf("  ");
 			else
 				printf("%02x", *(b + index + byte));
 			if ((index % 2) != 0 && index != 0)
