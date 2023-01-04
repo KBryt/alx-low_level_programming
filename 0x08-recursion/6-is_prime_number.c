@@ -21,7 +21,7 @@ int prime_check(int f, int p)
  * @n: number
  * Return: integers
  */
-int is _prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
