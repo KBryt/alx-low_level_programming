@@ -9,10 +9,15 @@
 int main(int argc, char **argv)
 {
 	/*Declaring variables */
-	int i;
+	int i = 0;
 
-	for (i = 0; i < argc; i++)
+	if (argc > 0)
 	{
-		printf("%s\n", argv[i])
+		while (i < argc)
+		{
+			printf("%s\n", argv[i]);
+			i++;
+		}
 	}
+	return (0);
 }
