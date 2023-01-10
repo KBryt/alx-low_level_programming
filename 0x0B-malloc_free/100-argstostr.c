@@ -2,43 +2,44 @@
 #include <stdlib.h>
 /**
  * argstostr - main entry
- * @av: double pointer array
- * @ac: int input
+ * @ac: double pointer array
+ * @av: int input
  * Return: 0
  */
 char *argstostr(int ac, char **av)
 {
 	char *str;
 
-	int i = 0, n = 0, r = 0, l = 0;
+	int count = 0, a = 0, b = 0, c = 0;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	while (i < ac)
+	while (a < ac)
 	{
-		n = 0;
-		while (av[i][n] != '\0')
+		b = 0;
+		while (av[a][b] != '\0')
 		{
-			r++;
-			n++;
+			count++;
+			b++;
 		}
-		i++;
+		a++;
 	}
-	l = l + ac + 1;
-	str = malloc(sizeof(char) * l);
+	count = count + ac + 1;
+	str = malloc(sizeof(char) * count);
 
 	if (str == NULL)
 		return (NULL);
 
-	for (i = 0; i < ac; i++)
+	for (a = 0; a < ac; a++)
 	{
-		for (n = 0; av[i][n] != '\0'; n++)
+		for (b = 0; av[a][b] != '\0'; b++)
 		{
-			str[r] = av[i][n];
-			r++;
+			str[c] = av[a][b];
+			c++;
 		}
-		str[r++] = '\n';
+		str[c] = '\n';
+		c++;
 	}
 	return (str);
 }
