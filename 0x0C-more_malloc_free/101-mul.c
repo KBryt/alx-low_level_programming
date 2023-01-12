@@ -40,7 +40,7 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	tab = malloc(size * nmemb);
 
-	if (tab == (NULL)
+	if (tab == (NULL))
 		return (NULL);
 
 	for (i = 0; i < (size * nmemb); i++)
