@@ -86,7 +86,6 @@ int check_for_digits(char **av)
  * init - initializes a string
  * @str: sting to initialize
  * @l: length of strinf
- *
  * Return: void
  */
 void init(char *str, int l)
