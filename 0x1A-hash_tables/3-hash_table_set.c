@@ -4,8 +4,7 @@
 * str_copy - create single copy of a given string.
 * @s: The string to copy.
 *
-* Return: A pointer to the created string,
-* 	  otherwise NULL.
+* Return: A pointer to the created string and otherwise NULL.
 */
 
 char *str_copy(const char *s)
